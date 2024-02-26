@@ -1,0 +1,148 @@
+[
+    {
+    "title":"reserve",
+    "fields": [
+            {
+        "id": "msisdn",
+        "title": "MSISDN",
+        "value": "809010018",
+        "type": "text"
+            },
+            {
+        "id": "amount",
+        "title": "Amount",
+        "value": 0,
+        "type": "number"
+            },
+            {
+        "id": "merchantRideId",
+        "title": "Merchant Ride Id",
+        "value": "",
+        "type": "text"
+            },
+            {
+        "id": "externalMandateToken",
+        "title": "External Mandate Token",
+        "value": "",
+        "type": "text"
+            },
+            {
+        "id": "merchantCustomerId",
+        "title": "Merchant Customer Id",
+        "value": "",
+        "type": "text"
+            },
+            {
+        "id": "merchantId",
+        "title": "Merchant Id",
+        "value": "",
+        "type": "dropdown"
+            },
+            {
+        "id": "merchantPlanId",
+        "title": "Merchant Plan Id",
+        "value": "",
+        "type": "dropdown"
+            }
+        ]
+    },
+    {
+    "title":"end",
+    "fields": [
+            {
+        "id": "msisdn",
+        "title": "MSISDN",
+        "value": "",
+        "type": "text"
+            },
+            {
+        "id": "amount",
+        "title": "Amount",
+        "value": 0,
+        "type": "number"
+            },
+            {
+        "id": "merchantRideId",
+        "title": "Merchant Ride Id",
+        "value": "",
+        "type": "text"
+            },
+            {
+        "id": "externalMandateToken",
+        "title": "External Mandate Token",
+        "value": "",
+        "type": "text"
+            },
+            {
+        "id": "merchantId",
+        "title": "Merchant Id",
+        "value": "",
+        "type": "dropdown"
+            }
+        ]
+    },
+    {
+    "title":"extend",
+    "fields": [
+            {
+        "id": "msisdn",
+        "title": "MSISDN",
+        "value": "",
+        "type": "text"
+            },
+            {
+        "id": "amount",
+        "title": "Amount",
+        "value": 0,
+        "type": "number"
+            },
+            {
+        "id": "merchantRideId",
+        "title": "Merchant Ride Id",
+        "value": "",
+        "type": "text"
+            },
+            {
+        "id": "externalMandateToken",
+        "title": "External Mandate Token",
+        "value": "",
+        "type": "text"
+            },
+            {
+        "id": "merchantId",
+        "title": "Merchant Id",
+        "value": "",
+        "type": "dropdown"
+            }
+        ]
+    },
+    {
+    "title":"cancel",
+    "fields": [
+            {
+        "id": "msisdn",
+        "title": "MSISDN",
+        "value": "",
+        "type": "text"
+            },
+            {
+        "id": "amount",
+        "title": "Amount",
+        "value": 0,
+        "type": "number"
+            },
+            {
+        "id": "merchantRideId",
+        "title": "Merchant Ride Id",
+        "value": "",
+        "type": "text"
+            },
+            {
+        "id": "merchantId",
+        "title": "Merchant Id",
+        "value": "",
+        "type": "dropdown"
+            }
+        ]
+    }
+]

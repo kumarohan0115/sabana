@@ -1,0 +1,68 @@
+$orange : #ff6347ff;
+$byigan : #440f45ff;
+$text-color: #fff;
+
+.sideNav-Wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-color: $byigan;
+    display: flex;
+    align-items: center;
+    min-width: 15%;
+
+    .logo {
+        position: absolute;
+        top: 1rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span {
+            height: 50px;
+            width: 50px;
+
+            img {
+                height: 100%;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .cta {
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        .hamburger-container {
+            display: flex;
+            justify-content: center;
+            height: 350px;
+            width: 50px;
+            position: absolute;
+            left: -2rem;
+            background-color: $orange;
+            cursor: pointer;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+
+            li {
+                a {
+                    color: $text-color;
+                    text-decoration: none;
+                }
+
+                font-size: large;
+                list-style: none;
+            }
+
+        }
+
+    }
+}

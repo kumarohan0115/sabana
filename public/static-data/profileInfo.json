@@ -1,0 +1,79 @@
+{
+    "userInfo": {
+        "name": "Rohan Kumar",
+        "nickName":"Ruhan",
+        "age": 24,
+        "gender": "male",
+        "Location": "Delhi NCR",
+        "email": "rohankr350@gmail.com",
+        "phone": "9999999999",
+        "address": "Delhi NCR",
+        "profilePic": "https://www.google.com",
+        "coverPic": "https://www.google.com",
+        "sortAbout":"I am a ",
+        "workTitle":"Software Developer Engineer",
+        "company":"Nxtpe.",
+        "about": "I am a software developer and I love to code. I am a quick learner and I am always ready to learn new things. I am a team player and I love to work in a team. I am a good listener and I am always ready to help others. I am a good problem solver and I love to solve problems. I am a good communicator and I love to communicate with others. I am a good leader and I love to lead a team. I am a good motivator and I love to motivate others. I am a good decision maker and I love to take decisions. I am a good planner and I love to plan things. I am a good organizer and I love to organize things. I am a good time manager and I love to manage time",
+        "education": [
+            {
+                "degree": "B.Tech",
+                "branch": "Computer Science",
+                "college": "IIT Delhi",
+                "passingYear": 2020,
+                "percentage": 80
+            },
+            {
+                "degree": "12th",
+                "branch": "Science",
+                "college": "CBSE",
+                "passingYear": 2016,
+                "percentage": 90
+            },
+            {
+                "degree": "10th",
+                "branch": "Science",
+                "college": "CBSE",
+                "passingYear": 2014,
+                "percentage": 95
+            }
+        ],
+        "experience": [
+            {
+                "company": "Google",
+                "position": "Software Developer",
+                "location": "Delhi NCR",
+                "from": "01-01-2021",
+                "to": "01-01-2022",
+                "description": "I worked as a software developer at",
+                "current": true,
+                "skills": [
+                    "Java",
+                    "Python",
+                    "C++",
+                    "JavaScript",
+                    "HTML",
+                    "CSS",
+                    "React",
+                    "Angular",
+                    "Node.js",
+                    "Express.js",
+                    "MongoDB",
+                    "MySQL",
+                    "PostgreSQL",
+                    "Firebase",
+                    "AWS",
+                    "Azure",
+                    "GCP",
+                    "Docker",
+                    "Figma",
+                    "Sketch",
+                    "InVision",
+                    "Zeplin",
+                    "Adobe XD",
+                    "Photoshop",
+                    "Illustrator"
+                ]
+            }
+        ]
+    }
+}

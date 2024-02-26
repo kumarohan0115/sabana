@@ -1,0 +1,16 @@
+.content-wrapper{
+    display: flex;
+    justify-content: space-around;
+    .title-holder{
+        max-width: 33%;
+        span{
+            cursor: pointer;
+        }
+    }
+
+    .about-holder{
+        display: flex;
+        height: 300px;
+        max-width: 50%;
+    }
+}

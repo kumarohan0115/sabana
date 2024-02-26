@@ -1,0 +1,41 @@
+svg {
+  &.medium {
+    width: 24px;
+    height: 24px;
+  }
+
+  &.small {
+    width: 16px;
+    height: 16px;
+  }
+  &.large {
+    width: 32px;
+    height: 32px;
+  }
+
+  &.white-icon{
+    color: var(--white);
+  }
+
+  &.primary-color-icon{
+    // color: #007bff;
+    color: #3481F3;
+    margin-right: 5px;
+  }
+
+  &.white-icon-color{
+    color: #fff;
+  }
+
+  &.backbtn{
+    cursor: pointer;
+  }
+
+  &.translator{
+    cursor: pointer;
+  }
+
+  &.black-icon-color{
+    color: #000;
+  }
+}

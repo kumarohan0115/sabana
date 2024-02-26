@@ -1,0 +1,63 @@
+{
+    "Terms of Services": [
+        {
+            "heading": "Website Usage:",
+            "content": "By accessing and using our website, you agree to comply with these Terms of Use. You may only use our website for lawful purposes and in accordance with applicable laws and regulations. You may not use our website to engage in any illegal, harmful, or unethical activities."
+        },
+        {
+            "heading": "Ownership:",
+            "content": "All icons and content on our website are owned by us and are protected by applicable laws, including copyright and intellectual property rights. You may not reproduce, distribute, modify, or otherwise use our content without our prior written consent."
+        },
+        {
+            "heading": "Liability:",
+            "content": " We strive to provide accurate and up-to-date information on our website, but we do not guarantee the accuracy,completeness, or reliability of any content. We are not liable for any errors, omissions, or damages that mayoccur while using our website."
+        },
+        {
+            "heading": "Links to Third-Party Sites:",
+            "content": "Our website may contain links to third-party websites. We are not responsible for the privacypractices or content of those websites. We recommend reviewing the privacy policies and terms of use of those websites before providing any personal information."
+        },
+        {
+            "heading": "Changes to Terms:",
+            "content": "We reserve the right to modify or update these Terms of Use at any time without prior notice. Any changes will be effective upon posting on our website. By continuing to use our website after any changes, you agree to be bound by the updated Terms of Use."
+        },
+        {
+            "heading": "Governing Law:",
+            "content": "These Terms of Use shall be governed by and construed in accordance with the laws. Any disputes arising out of or in connection with these Terms of Use shall be resolved in accordance with the laws. \n \nBy using our website, you acknowledge that you have read, understood, and agreed to our Privacy Policy and Terms of Use. Please note that these terms are subject to change, and it's your responsibility to review them periodically for any updates."
+        }
+    ],
+
+    "Privacy Policy": [
+        {
+            "content":"At Nxtpe, we are committed to protecting your privacy and ensuring that your personal information is collected, used, and stored in accordance with applicable laws and regulations. Our Privacy Policy outlines the types of information we collect, how we use it, and how we protect your information."
+        },
+        {
+            "heading": "Information Collection:",
+            "content": "We may collect personal information, such as your name and email address, when you voluntarily provide it to us through forms on our website. We may also collect non-personal information, such as cookies and IP addresses, automatically as you use our website."
+        },
+        {
+            "heading": "Use of Information:",
+            "content": "The personal information you provide may be used to communicate with you, provide you with information or services you request, and improve our website's functionality. Non-personal information may be used to analyze trends, administer the website, track user movement, and gather demographic information."
+        },
+        {
+            "heading": "Data Sharing:",
+            "content": "We do not sell, rent, or share your personal information with third parties unless required by law or with your explicit consent. We may use third-party service providers to collect or process the information on our behalf, but they are obligated to maintain the confidentiality and security of your information."
+        },
+        {
+            "heading": "Security Measures:",
+            "content": "We have implemented reasonable security measures to protect against unauthorized access, use, or disclosure of your information."
+        },
+        {
+            "heading": "Cookies:",
+            "content": "We may use cookies, which are small text files that are stored on your device, to enhance your experience on our website. You can manage or disable cookies through your browser settings, but please note that some features of our website may not function properly without cookies."
+        },
+        {
+            "heading": "Legal Requirements:",
+            "content": "We may disclose your information if required by law or legal process, or to protect our rights, property, or safety, or the rights, property, or safety of others."
+        },
+        {
+            "heading": "User Rights:",
+            "content": "You have the right to access, update, or delete your personal information. If you wish to exercise any of these rights, please contact us using the contact information provided on our website."
+        }
+        
+    ]
+}

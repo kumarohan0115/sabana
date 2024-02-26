@@ -1,0 +1,85 @@
+$darkOrange: #ff7034;
+
+.image-holder{
+    background: url('https://assets.website-files.com/573b8919b03d8ea144ce01b3/5b81af3a9a83610555f448ae_beige-paper.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    .userInfo{
+        width: 40%;
+        height: 350px;
+        position: relative;
+        background: url("https://assets.website-files.com/573b8919b03d8ea144ce01b3/5b81af3a947a56f8a5064738_sandpaper.png");
+        .corner{
+            position: absolute;
+            height: 50px;
+            width: 50px;
+        }
+        #corner-top-1{
+            top: 0;
+            left: 0;
+            border-top: 7px solid $darkOrange;
+            border-left: 7px solid $darkOrange;
+            z-index: 2;
+        }
+
+        #corner-1{
+            top: 0;
+            left: 0;
+            border-top: 7px solid $darkOrange;
+            border-left: 7px solid $darkOrange;
+        }
+        #corner-top-2{
+            top: 0%;
+            right: 0%;
+            border-top: 7px solid $darkOrange;
+            border-right: 7px solid $darkOrange;
+            z-index: 2;
+        }
+        #corner-2{
+            top: 0%;
+            right: 0%;
+            border-top: 7px solid $darkOrange;
+            border-right: 7px solid $darkOrange;
+        }
+        #corner-top-3{
+            bottom: 0;
+            left: 0;
+            border-bottom: 7px solid $darkOrange;
+            border-left: 7px solid $darkOrange;
+            z-index: 2;
+        }
+        #corner-3{
+            bottom: 0;
+            left: 0;
+            border-bottom: 7px solid $darkOrange;
+            border-left: 7px solid $darkOrange;
+        }
+        #corner-top-4{
+            bottom: 0;
+            right: 0;
+            border-bottom: 7px solid $darkOrange;
+            border-right: 7px solid $darkOrange;
+            z-index: 2;
+        }
+        #corner-4{
+            bottom: 0;
+            right: 0;
+            border-bottom: 7px solid $darkOrange;
+            border-right: 7px solid $darkOrange;
+        }
+        .cover{
+            position: absolute;
+            left: 7px;
+            top: 7px;
+            height:calc(100% - 14px);
+            width:calc(100% - 14px);
+            background: #ffffff;
+            opacity: 0.5;
+            text-align: center;
+        }
+    }
+
+}

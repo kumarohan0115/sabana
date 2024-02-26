@@ -1,0 +1,12 @@
+{
+    "admin": [
+        "checkout",
+        "Mandate Management",
+        "Kora",
+        "Ride Collect"
+    ],
+    "user": [
+        "checkout",
+        "Kora"
+    ]
+}
