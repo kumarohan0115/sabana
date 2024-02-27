@@ -1,16 +1,66 @@
+$byigan : #440f45ff;
+
 .content-wrapper{
     display: flex;
-    justify-content: space-around;
-    .title-holder{
+    justify-content: space-between;
+    padding: 1% 15%;
+    height: fit-content;
+    position: relative;
+    
+    .thumbnail{
         max-width: 33%;
-        span{
-            cursor: pointer;
+        height: 200px;
+        img{
+            height: 100%;
+        }
+    }
+    
+    .about-holder{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        max-width: 50%;
+        gap: 1.5rem;
+        shape-outside: margin-box;
+        .title-holder{
+            display: flex;
+            align-items: center;
+            span{
+                margin-left: 1rem;
+                cursor: pointer;
+            }
+        }
+    }
+    .animation{
+        width: 0%;
+        height: 100%;
+        background: $byigan;
+        position: absolute;
+        animation: animationCard 4s forwards;
+
+    }
+
+    @keyframes animationCard {
+        from{
+            width: 0;
+            background-color: $byigan;
+        }
+        to{
+            width: 80%;
+            // background-color: $byigan;
+            background-color: transparent;
         }
     }
 
+}
+
+.content-wrapper:nth-child(odd){
+    flex-direction: row-reverse;
+    .thumbnail{
+        order: 1;
+    }
     .about-holder{
-        display: flex;
-        height: 300px;
-        max-width: 50%;
+        order: 2;
     }
 }
+

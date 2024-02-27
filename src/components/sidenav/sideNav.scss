@@ -10,7 +10,7 @@ $text-color: #fff;
     background-color: $byigan;
     display: flex;
     align-items: center;
-    min-width: 15%;
+    min-width: 4%;
 
     .logo {
         position: absolute;
@@ -40,6 +40,7 @@ $text-color: #fff;
             display: flex;
             justify-content: center;
             height: 350px;
+            min-height: 45px;
             width: 50px;
             position: absolute;
             left: -2rem;
