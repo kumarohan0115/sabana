@@ -8,5 +8,22 @@
     ],
     "iconName":"hamburger",
     "logo":"https://lh3.googleusercontent.com/a/ACg8ocLcHvgam2ET3dW5BtwBt79Rt4YQldYXPoFhgVY__Pax9W5T=s360-c-no",
-    "title":"My Website"
+    "title":"My Website",
+    "socialMedia":[
+        {
+            "name":"Facebook",
+            "url":"https://www.facebook.com",
+            "iconName":"facebook"
+        },
+        {
+            "name":"Twitter",
+            "url":"https://www.twitter.com",
+            "iconName":"twitter"
+        },
+        {
+            "name":"Instagram",
+            "url":"https://www.instagram.com",
+            "iconName":"instagram"
+        }
+    ]
 }

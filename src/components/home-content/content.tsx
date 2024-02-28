@@ -16,7 +16,7 @@ const Content = (ContentProps) => {
         {ContentProps.description}
       </div>
 
-      <div className="animation"></div>
+      {/* <div className="animation"></div> */}
     </div>
   )
 }
