@@ -7,7 +7,7 @@ const Projects = () => {
         <div>
             {
                 content.map((item, index) => {
-                    return <Content key={index} title={item.title} thumbnail={item.thumbnail} description={item.description} />
+                    return <Content key={index} technology={item.technology} title={item.title} thumbnail={item.thumbnail} description={item.description} />
                 })
             }
         </div>

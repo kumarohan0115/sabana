@@ -2,25 +2,36 @@
     {
         "title": "Welcome to my digital world!",
         "url": "#digitalWorld",
+        "technology" : ["HTML5","CSS3"],
         "thumbnail": "https://assets.website-files.com/573b8919b03d8ea144ce01b3/5a8ccd0baee9140001943892_raleigh-skyline-mysketch-p-500.jpeg",
         "description": "Since I learned WebDesign in 2014 I discovered a whole new world and found many awesome people around. Some of them became my friends, some of them are my customers.    There are people who I am learning from and also people who I helped to learn. It became a new chapter of my life-book and I am trying to make it beautiful."
     },
     {
         "title": "It is an honor to be able to make a difference",
         "url": "#digitalHonor",
+        "technology" : ["HTML5","CSS3"],
         "thumbnail": "https://assets.website-files.com/573b8919b03d8ea144ce01b3/5abc4ad2a893536b4e50a4a2_mysketch-webflow-big-full-p-500.jpeg",
         "description": "I consider myself lucky to be part of the fantastic Webflow team as a Quality Assurance Analyst. Every day I am making sure that hundreds of thousands of our users getting a high-quality tool for designing and building for the web. And I am enjoing it. Because I know that Webflow changed many peoples lives (I am one of the examples) and inspired them to follow their dreams. Being part of it and being able to make that difference in somebody's life is a great pleasure."
     },
     {
         "title": "Welcome to my digital world!",
         "url": "#digitalWorld",
+        "technology" : ["HTML5","CSS3"],
         "thumbnail": "https://assets.website-files.com/573b8919b03d8ea144ce01b3/5a8ccd0baee9140001943892_raleigh-skyline-mysketch-p-500.jpeg",
         "description": "Since I learned WebDesign in 2014 I discovered a whole new world and found many awesome people around. Some of them became my friends, some of them are my customers.    There are people who I am learning from and also people who I helped to learn. It became a new chapter of my life-book and I am trying to make it beautiful."
     },
     {
         "title": "It is an honor to be able to make a difference",
         "url": "#digitalHonor",
+        "technology" : ["HTML5","CSS3"],
         "thumbnail": "https://assets.website-files.com/573b8919b03d8ea144ce01b3/5abc4ad2a893536b4e50a4a2_mysketch-webflow-big-full-p-500.jpeg",
+        "description": "I consider myself lucky to be part of the fantastic Webflow team as a Quality Assurance Analyst. Every day I am making sure that hundreds of thousands of our users getting a high-quality tool for designing and building for the web. And I am enjoing it. Because I know that Webflow changed many peoples lives (I am one of the examples) and inspired them to follow their dreams. Being part of it and being able to make that difference in somebody's life is a great pleasure."
+    },
+    {
+        "title": "It is an honor to be able to make a difference",
+        "url": "#digitalHonor",
+        "technology" : ["HTML5","CSS3"],
+        "thumbnail": "https://media.istockphoto.com/id/1470130937/photo/young-plants-growing-in-a-crack-on-a-concrete-footpath-conquering-adversity-concept.webp?b=1&s=170667a&w=0&k=20&c=IRaA17rmaWOJkmjU_KD29jZo4E6ZtG0niRpIXQN17fc=",
         "description": "I consider myself lucky to be part of the fantastic Webflow team as a Quality Assurance Analyst. Every day I am making sure that hundreds of thousands of our users getting a high-quality tool for designing and building for the web. And I am enjoing it. Because I know that Webflow changed many peoples lives (I am one of the examples) and inspired them to follow their dreams. Being part of it and being able to make that difference in somebody's life is a great pleasure."
     }
 ]

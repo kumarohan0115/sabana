@@ -1,0 +1,70 @@
+{
+    "title":"Contact Information",
+    "heading": "Get in Touch, We'd love to hear from you!",
+    "subHeading": "Feel free to ask us anything, we are here to help you",
+    "mobileNumer":[ "123-456-7890", "098-765-4321" ],
+    "emailAddrsss": [ "info@example.com","support@example.com"],  
+    "addresses": [{
+        "address": "1234 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001"
+    },
+    {
+        "address": "5678 Main St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90001"
+    }],
+    "label":[
+        {
+            "name":"First Name",
+            "width":"45%",
+            "type":"text",
+            "value":"",
+            "placeholder":"e.g. Smith"
+        },
+        {
+            "name":"Last Name",
+            "width":"45%",
+            "type":"text",
+            "value":"",
+            "placeholder":"e.g. John"
+        },
+        {
+            "name":"Email",
+            "width":"45%",
+            "type":"email",
+            "pattern":"[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,3}$",
+            "errormsg":"Please enter a valid email address",
+            "required":true,
+            "value":"",
+            "placeholder":"e.g.example@mail.com"
+        },
+        {
+            "name":"Phone",
+            "width":"45%",
+            "type":"tel",
+            "pattern":"[0-9]{3}-[0-9]{3}-[0-9]{4}",
+            "errorMessage":"Please enter the phone number in the format 123-456-7890",
+            "value":"",
+            "placeholder":"e.g. 123-456-7890"
+        },
+        {
+            "name":"Address",
+            "width":"100%",
+            "type":"text",
+            "value":"",
+            "placeholder":"e.g. 1234 Main St"
+        },
+        {
+            "name":"Message",
+            "width":"100%",
+            "type":"textarea",
+            "rows":"5",
+            "cols":"30",
+            "value":"",
+            "placeholder":"e.g. Your message here"
+        }
+    ]
+}

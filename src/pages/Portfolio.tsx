@@ -1,4 +1,4 @@
-import { Profile, SideNav, Projects } from 'components'
+import { Profile, SideNav, Projects, ContactUs } from 'components'
 import React from 'react'
 
 
@@ -8,7 +8,7 @@ const Portfolio:React.FC = () => {
         <Profile/>
         <SideNav/>
         <Projects/>
-        
+        <ContactUs />
     </div>
   )
 }

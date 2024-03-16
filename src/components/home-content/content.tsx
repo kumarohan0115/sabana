@@ -2,21 +2,29 @@ import React from 'react'
 import './content.scss'
 import Icon from 'components/icon/icon'
 
-const Content = (ContentProps) => {
+const Content = (Content) => {
   return (
     <div className='content-wrapper'>
       <div className="thumbnail">
-        <img src={ContentProps.thumbnail} alt="image" />
+        <img src={Content.thumbnail} alt="image" />
       </div>
       <div className="about-holder">
-        <h3 className="title-holder">{ContentProps.title}<span className='websiteLink'>
+        <h3 className="title-holder">{Content.title}<span className='websiteLink'>
           <a href="https://google.com"><Icon name="link" /></a>
         </span>
         </h3>
-        {ContentProps.description}
+        {Content.description}
+        <div className="techStack">
+          <h4>Technology Used:</h4>
+          <ul className="stackList">
+            {Content.technology.map((item, index) => {
+              return (
+                <li key={index}>{item}</li>
+              )
+            })}
+          </ul>
+        </div>
       </div>
-
-      {/* <div className="animation"></div> */}
     </div>
   )
 }
