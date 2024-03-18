@@ -10,6 +10,7 @@
     .contactUs__form {
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
         align-items: flex-start;
         gap: 1rem;
         padding: 1rem;
@@ -84,6 +85,14 @@
                         }
                     }
                 }
+            }
+        }
+
+        @media (max-width: 992px) {
+            flex-direction: column;
+            .left-card,
+            .right-card {
+                width: 100%;
             }
         }
     }

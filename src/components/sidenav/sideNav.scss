@@ -2,6 +2,10 @@ $orange : #ff6347ff;
 $byigan : #440f45ff;
 $text-color: #fff;
 
+.expanded{
+    width: 250px !important;
+}
+
 .sideNav-Wrapper {
     position: fixed;
     top: 0;
@@ -67,6 +71,10 @@ $text-color: #fff;
 
         }
 
+    }
+
+    .ctaPositionOutside{
+        right: 0rem;
     }
 
     .socialMedia{

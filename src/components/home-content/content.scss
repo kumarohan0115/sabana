@@ -6,10 +6,15 @@ $byigan : #440f45ff;
     padding: 1% 15%;
     height: auto;
     position: relative;
+    // border-bottom: 2px solid grey;
+    box-shadow: 0 2px 4px #ecedff;
+    &:last-child{
+        border: none;
+    }
     
     .thumbnail{
         max-width: 33%;
-        height: 200px;
+        height: auto;
         img{
             height: 100%;
         }
