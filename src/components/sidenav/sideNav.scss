@@ -2,6 +2,10 @@ $orange : #ff6347ff;
 $byigan : #440f45ff;
 $text-color: #fff;
 
+.expanded{
+    width: 250px !important;
+}
+
 .sideNav-Wrapper {
     position: fixed;
     top: 0;
@@ -10,7 +14,8 @@ $text-color: #fff;
     background-color: $byigan;
     display: flex;
     align-items: center;
-    min-width: 15%;
+    min-width: 60px;
+    z-index: 2;
 
     .logo {
         position: absolute;
@@ -21,8 +26,8 @@ $text-color: #fff;
         align-items: center;
 
         span {
-            height: 50px;
-            width: 50px;
+            height: 42px;
+            width: 42px;
 
             img {
                 height: 100%;
@@ -39,7 +44,9 @@ $text-color: #fff;
         .hamburger-container {
             display: flex;
             justify-content: center;
+            padding-top: .3rem;
             height: 350px;
+            min-height: 42px;
             width: 50px;
             position: absolute;
             left: -2rem;
@@ -64,5 +71,26 @@ $text-color: #fff;
 
         }
 
+    }
+
+    .ctaPositionOutside{
+        right: 0rem;
+    }
+
+    .socialMedia{
+        position: absolute;
+        bottom: 0;
+        height: fit-content;
+        width: 100%;
+        ul{
+            padding:0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            list-style:none;
+        }
+        @media (max-width: 60px) {
+                        
+        }
     }
 }

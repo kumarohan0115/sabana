@@ -1,0 +1,99 @@
+.contactUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    background: #ecedff;
+    padding: 20px;
+
+    .contactUs__form {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 1rem;
+        border-radius: 10px;
+        background: #fff;
+
+        .left-card {
+            width: 50%;
+            height: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            padding: 1rem;
+            background: #440f45ad;
+            color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+            .contactNumber,.contactEmail,.contactAddress{
+                display: flex;
+                align-items: center;
+                ul{
+                    margin: 0;
+                }
+            }
+        }
+
+        .right-card {
+            width: 50%;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+            .form-container {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1rem;
+
+                .form-group {
+                    margin-bottom: 20px;
+
+                    label {
+                        display: block;
+                        margin-bottom: 5px;
+                    }
+
+                    input,
+                    textarea {
+                        width: 100%;
+                        padding: 10px;
+                        border: 1px solid #ddd;
+                        border-radius: 5px;
+
+                        &:focus {
+                            outline: none;
+                            border-color: #ff6b6b;
+                        }
+                    }
+                }
+
+                .form-group--submit {
+                    text-align: right;
+
+                    button {
+                        padding: 10px 20px;
+                        border: none;
+                        border-radius: 5px;
+                        background-color: #ff6b6b;
+                        color: #fff;
+                        cursor: pointer;
+
+                        &:hover {
+                            background-color: #ff4d4d;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 992px) {
+            flex-direction: column;
+            .left-card,
+            .right-card {
+                width: 100%;
+            }
+        }
+    }
+}
